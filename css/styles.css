@@ -56,6 +56,17 @@ img {
     color: #404bbf;
 }
 
+.main-nav-link.active::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
+
 .main-nav-link:hover,
 .main-nav-link:focus {
     color: #404bbf;
@@ -170,8 +181,6 @@ img {
     padding: 0 15px;
     max-width: 1158px;
 }
-
-
 
 .main-title {
     font-family: "Roboto", sans-serif;
